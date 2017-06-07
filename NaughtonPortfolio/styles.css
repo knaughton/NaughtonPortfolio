@@ -1,0 +1,46 @@
+body {
+	font-family: arial;
+	background-color: rgb(185,179,175);
+	opacity: 0.85;}
+
+#header {
+		font-family: "Pacifico", cursive;
+		font-size: 25px;}
+
+#logo {
+	text-align: center;}
+
+img.golf {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;}
+
+h1 {
+	text-align: center;
+	color: rgb(255,255,255);}
+
+p.zero {
+	width: 450px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+	text-align: center;}
+
+img.one, img.two, img.three, img.four {
+	-moz-box-shadow: 2px 2px 2px 2px #777777;
+	-webkit-box-shadow: 2px 2px 2px 2px #777777;
+	box-shadow: 2px 2px 2px 2px #777777;
+	padding: 0px;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;}
+
+li 	{display: inline;
+	margin-right: 10px}
+
+ul	{margin: 10px auto 10px auto;
+	text-align: center;}
+
+p.one {
+	background-color: white;}
