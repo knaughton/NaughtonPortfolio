@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+	<link href="styles3.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="JavaScript.js"></script>
+
+	<!-- <script>
+
+	function bigImg(x) {
+		x.style.height="200px";
+		x.style.width="200px";
+	}
+
+	function normalImg(x) {
+		x.style.height="100px"
+		x.style.width="100px"
+	}
+
+	function myFunction() {
+		var x = document.getElementById("fname");
+		var y = document.getElementById("fname2");
+		x.value=x.value.toUpperCase();
+		y.value=y.value.toUpperCase();
+	}
+
+	function validateForm() {
+		var x = document.forms["myForm"]["fname"].value;
+		var y = document.forms["myForm"]["fname2"].value;
+		var z = document.forms["myForm"]["fname3"].value;
+		if (x, y, z == "") {
+			alert("Please complete form before submitting");
+			return false;
+		}
+	}
+
+	function mouseOver() {
+		document.getElementById("id1").style.color="#006633"
+	}
+
+	function mouseOut() {
+		document.getElementById("id1").style.color="black"
+	}
+
+</script> -->
+
+</head>
+	<body>
+
+		<!--This is my header -->
+
+		<h1 class="content-header">Contact</h1>
+
+		<ul>
+			<li><a href="homepage2.html">Home</a></li>
+			<li><a href="about1.html">About</a><li>
+			<li class="list-right"><a class="active" href="contact1.html">Contact</a></li>
+		</ul>
+
+		<h3 id="id1" onmouseover="mouseOver()" onmouseout="mouseOut()">Kevin Naughton</h3>
+
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/email.jpg" alt="E-mail" width="100" height="100" /> <br>
+
+		<div class="greeting">
+		<script src="add-content.js"></script>
+		</div>
+
+		<form name="myForm" action="mailto:kevinjamesnaughton@gmail.com?Subject=Feedback" onsubmit="return validateForm()" method="post" enctype="text/plain">
+
+			<div id="form">
+				Name:<br>
+				<input type="text" name="fname" id="fname" value="" onchange="myFunction()"><br>
+				E-mail:<br>
+				<input type="text" name="fname2" size="50" id="fname2" value="" onchange="myFunction()"><br>
+				Comment:<br>
+				<textarea id="comments" name="fname3" cols="50" rows"16" value=""></textarea><br>
+			</div>
+
+			<div class="submit">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</body>
+</html>
